@@ -1,0 +1,20 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Dana Hazen - Front End Case Study",
+  "main": "script.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tundra969/FrontEnd.git"
+  },
+  "author": "Dana Hazen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tundra969/FrontEnd/issues"
+  },
+  "homepage": "https://github.com/Tundra969/FrontEnd#readme"
+}

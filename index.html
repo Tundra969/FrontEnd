@@ -1,0 +1,66 @@
+<!doctype HTML>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Dana Hazen - Front End Case Study</title>
+        <link href='style.css' rel='stylesheet' type='text/css'>
+        <script src='angular.min.js'></script>
+        <script src='script.js'></script>
+        <!-- <script src='server/app.js'></script> -->
+    </head>
+    <body ng-app='frontend'>
+        <div ng-controller="titleController">
+            <p class='title'>{{title}}</p>
+        </div>
+        <div ng-controller="priceController">
+                <p class='price'>Current Price: {{price}}</p>
+        </div>
+        <div ng-controller="imageController">
+            <img ng-src={{main_image}} alt='main product image'/>
+            <img ng-src={{alt_1}} alt='alternate product image 1'/>
+            <img ng-src={{alt_2}} alt='alternate product image 2'/>
+            <img ng-src={{alt_3}} alt='alternate product image 3'/>
+            <img ng-src={{alt_4}} alt='alternate product image 4'/>
+            <img ng-src={{alt_5}} alt='alternate product image 5'/>
+            <img ng-src={{alt_6}} alt='alternate product image 6'/>
+            <img ng-src={{alt_7}} alt='alternate product image 7'/>
+        </div>
+        <div class='carousel' ng-controller="imageController">
+            <ul class='slides'>
+                <li>
+                    <h2>Main Product Image</h2>
+                    <img ng-src={{main_image}} alt='main product image'/>
+                </li>
+                <li>
+                    <h2>Alt Image 1</h2>
+                    <img ng-src={{alt_2}} alt='alternate product image 2'/>
+                </li>
+                <li>
+                    <h2>Alt Image 2</h2>
+                    <img ng-src={{alt_2}} alt='alternate product image 2'/>
+                </li>
+                <li>
+                    <h2>Alt Image 3</h2>
+                    <img ng-src={{alt_3}} alt='alternate product image 3'/>
+                </li>
+                <li>
+                    <h2>Alt Image 4</h2>
+                    <img ng-src={{alt_4}} alt='alternate product image 4'/>
+                </li>
+                <li>
+                    <h2>Alt Image 5</h2>
+                    <img ng-src={{alt_5}} alt='alternate product image 5'/>
+                </li>
+                <li>
+                    <h2>Alt Image 6</h2>
+                    <img ng-src={{alt_6}} alt='alternate product image 6'/>
+                </li>
+                <li>
+                    <h2>Alt Image 7</h2>
+                    <img ng-src={{alt_7}} alt='alternate product image 7'/>
+                </li>
+            </ul>
+        </div>
+
+    </body>
+</html>
