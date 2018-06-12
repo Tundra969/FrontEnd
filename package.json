@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "1.0.0",
+  "private": true,
   "description": "Dana Hazen - Front End Case Study",
   "main": "script.js",
   "scripts": {

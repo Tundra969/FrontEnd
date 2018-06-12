@@ -1,8 +1,22 @@
 body {
     text-align: center;
-    border: 3px solid green;
 }
+button {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 350px;
+    height: 100px;
 
+}
+button.store {
+    background-color: green;
+}
+button.online {
+    background-color: grey;
+    word-wrap: normal;
+}
 .title {
     font-size: 70px;
     font-weight: bold;
